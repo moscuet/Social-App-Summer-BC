@@ -28,6 +28,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.10",
     "nodemon": "^2.0.7",
+    "react-bootstrap": "^1.6.0",
     "request": "^2.88.2",
     "yup": "^0.32.9"
   }

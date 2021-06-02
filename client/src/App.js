@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.scss';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';import LoginForm from './components/loginForm/LoginForm'
+import { BrowserRouter as Router } from "react-router-dom";
 
-import LoginForm from './components/loginForm/LoginForm'
 function App() {
   return (
     <div className='App'>
-      <LoginForm/>
+      <Router>
+          <LoginForm/>
+      </Router>
     </div>
-  
   );
 }
 
